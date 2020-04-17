@@ -1,0 +1,32 @@
+<resources>
+    <string name="appName">Hebbar\'s Coffee</string>
+    <string name="Rs">\u20B9</string>
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+    <string name="tc">Terms and Conditions</string>
+    <string name="orders">My Orders</string>
+    <string name="logout">Logout</string>
+    <string name="profilePhoto">profilePhoto</string>
+    <string name="appIcon">AppIcon</string>
+    <string name="beverage">Beverage</string>
+    <string name="chooseQuantity">Choose Quantity</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="total">Total</string>
+    <string name="initialQuantity">0</string>
+    <string name="confirmButton">Confirm</string>
+    <string name="address">Enter your address</string>
+    <string name="login">Please login to continue</string>
+    <string name="latte">Latte</string>
+    <string name="americano">Americano</string>
+    <string name="espresso">Espresso</string>
+    <string name="cappucino">Cappucino</string>
+    <string name="coffeeDesc">Italian caffe latte, is made with espresso, steamed milk and milk foam.</string>
+    <string name="lattePrice">250</string>
+    <string name="americanoPrice">200</string>
+    <string name="espressoPrice">150</string>
+    <string name="cappucinoPrice">180</string>
+    <string name="orderButton">Order</string>
+
+
+</resources>

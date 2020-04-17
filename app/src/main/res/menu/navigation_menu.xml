@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/orders"
+    android:title="@string/orders"
+    android:icon="@drawable/ic_shopping_cart_black_24dp">
+
+</item>
+
+    <item
+        android:id="@+id/tc"
+        android:title="@string/tc"
+        android:icon="@drawable/ic_info_black_24dp">
+
+    </item>
+
+    <item
+
+        android:id="@+id/logoutFrom"
+        android:title="@string/logout"
+        android:icon="@drawable/logout">
+
+    </item>
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/coffee_bean"
+    tools:context=".OrderActivity">
+
+
+<TextView
+    android:id="@+id/beverageName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/beverage"
+    android:textSize="35sp"
+    android:textColor="#424242"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+  />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/chooseQuantity"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#424242" />
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increment"
+        android:layout_marginStart="20dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#424242"
+        android:onClick="increment"/>
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/initialQuantity"
+        android:layout_toEndOf="@id/increment"
+        android:layout_marginStart="20dp"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/quantity"
+        android:text="@string/decrement"
+        android:layout_marginStart="20dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#424242"
+        android:onClick="decrement"/>
+  </RelativeLayout>
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="20dp">
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+
+        android:textSize="25sp"
+
+        />
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/total"
+        android:layout_marginStart="10dp"
+        android:textSize="25sp"
+        android:text="@string/Rs" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/rs"
+        android:text="@string/initialQuantity"
+        android:textSize="25sp" />
+  </RelativeLayout>
+
+  <EditText
+      android:id="@+id/address"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginStart="20dp"
+      android:hint="@string/address"
+      android:fontFamily="sans-serif-condensed"
+      android:minLines="2"
+      android:maxLines="4"
+      android:scrollbars="vertical"
+      android:inputType="textMultiLine"
+      android:backgroundTint="#424242"
+      />
+  <Button
+      android:id="@+id/confirm"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/confirmButton"
+      android:backgroundTint="#424242"
+      android:textColor="#ffffff"
+      android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+   />
+
+
+
+</LinearLayout>
